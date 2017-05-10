@@ -13,3 +13,7 @@ then
 else
      color 3F;
 fi
+
+read -p "`pwd`/" cmd
+$cmd
+commands.sh
